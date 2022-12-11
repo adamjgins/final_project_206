@@ -162,7 +162,7 @@ def get_economic_data():
     key = 'e7cVuAp2R1gsCUf16GBz'
 
 
-    output_dict = {}
+    organized_dict = {}
 
     cpi = requests.get('https://api.stlouisfed.org/fred/series/observations?series_id=CPILFESL&api_key=0826dcd62489d3c9b0e3a3d14dea492b&file_type=json&observation_start=2013-01-01')
     #real_gdp = requests.get('https://api.stlouisfed.org/fred/series/observations?series_id=GDPC1&api_key=0826dcd62489d3c9b0e3a3d14dea492b&file_type=json&observation_start=1990-01-01')
@@ -175,7 +175,7 @@ def get_economic_data():
 
     
 
-    output_dict =  make_list_of_dictionaries(cpi_data)
+    organized_dict =  make_list_of_dictionaries(cpi_data)
     
 
 
@@ -191,9 +191,14 @@ def get_economic_data():
     
     #print(len(output_dict))
 
+    organized_dict = dict(sorted(organized_dict.items(), key=lambda x: x[0], reverse=True))
+
+    for year,months in organized_dict.items():
+        organized_dict[year] = dict(sorted(months.items(), key=lambda x: x[0], reverse=True))
 
 
-    return(output_dict)
+
+    return(organized_dict)
     
    
     pass
@@ -487,6 +492,41 @@ def create_crypto_table(crypto_dict,db_filename):
 
 
 
+def create_economic_table(economic_dict,db_filename):
+
+    con = sqlite3.connect(db_filename)
+    cur = con.cursor()
+
+    
+
+    
+
+    cur.execute("CREATE TABLE IF NOT EXISTS economic_info (id INTEGER PRIMARY KEY, value DOUBLE)")
+    
+    cur.execute("SELECT id FROM economic_info WHERE id = (SELECT MAX(id) FROM economic_info)")
+    start = cur.fetchone()
+    
+    if (start != None):
+        start = start[0]+1
+    else:
+        start = 3
+
+
+    i = 3
+
+    
+
+    for year,data in economic_dict.items():
+        for month,val in data.items():
+            if (i >= start and i< (start+25)):
+                value = val[0]['value']
+                
+                
+                
+                cur.execute("INSERT OR IGNORE INTO economic_info(id,value) VALUES (?,?)", (i,value))
+            i +=1
+    con.commit()
+
 
 
 
@@ -505,19 +545,23 @@ if __name__ == '__main__':
 
 
     if val == 1:
-        tickers = get_spy_data('https://stockmarketmba.com/stocksinthesp500.php')
-        economic_data = get_economic_data()
-        crypto_data = get_crypto_data()
-        stock_data = get_stock_data(tickers)
+        #tickers = get_spy_data('https://stockmarketmba.com/stocksinthesp500.php')
+        #economic_data = get_economic_data()
+  
+        #crypto_data = get_crypto_data()
+        #stock_data = get_stock_data(tickers)
 
     
 
-        create_dates_table(stock_data,'final_project.db')
-        create_stock_table(stock_data,'final_project.db')
-        create_crypto_table(crypto_data,'final_project.db')
+        #create_dates_table(stock_data,'final_project.db')
+        #create_stock_table(stock_data,'final_project.db')
+        #create_crypto_table(crypto_data,'final_project.db')
+        #create_economic_table(economic_data,'final_project.db')
+        pass
 
     else:
         drop_table('final_project.db')
+        pass
 
 
 

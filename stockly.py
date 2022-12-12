@@ -527,6 +527,61 @@ def create_economic_table(economic_dict,db_filename):
             i +=1
     con.commit()
 
+#CALCULATIONS SECTION
+
+
+def calculate_inflation_rate(db_filename):
+    con = sqlite3.connect(db_filename)
+    cur = con.cursor()
+
+    percent_increase_list = []
+
+
+    data = cur.execute('SELECT dates.date,economic_info.value FROM economic_info INNER JOIN dates ON economic_info.id = dates.id')
+
+    data = data.fetchall()
+
+    file_exists = os.path.exists('calculations.txt')
+
+    if file_exists:
+        aw = 'a'
+
+    else:
+        aw = 'w'
+
+
+
+    with open('calculations.txt', aw) as f:
+        f.write("\nPERCENTAGE CHANGE IN INFLATION EACH MONTH FOR 10 YEARS:\n")
+
+        f.write("____________________________________\n")
+
+        f.write("Equation: (Second month CPI - first month CPI)/first month CPI)*100 \n")
+        f.write("Example:() (20 - 10)/(10)*100) = 100% | The inflation rate percentage is 100% \n")
+
+
+        f.write(f'{"Start Date":{20}} {"End Date":{20}} {"Inflation Increase Percent:":{7}}\n') 
+
+        for row_number in range(1,len(data)):
+
+            date_one = data[row_number-1][0]
+            date_two = data[row_number][0]
+
+            original = data[row_number-1][1]
+            next = data[row_number][1]
+
+ 
+
+            percent_increase = round((((original - next)/next)*100),2)
+
+            percent_increase_list.append(percent_increase)
+
+            f.write(f'{date_one:{20}} {date_two:{20}} {str(percent_increase)+"%":{7}}\n') 
+        return(percent_increase_list)
+
+
+    pass
+
 
 
 

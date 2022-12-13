@@ -1,0 +1,760 @@
+
+PERCENTAGE INCREASE FOR AAPL EACH MONTH FOR 10 YEARS:
+____________________________________
+Equation: (Second month price - first month price)/first month price)*100 
+Example:() ($20 - $10)/($10)*100) = 100% 
+Ticker     Start Date           End Date             Percentage Increase
+AAPL       December, 2022       November, 2022       -0.93% 
+AAPL       November, 2022       October, 2022        0.57%  
+AAPL       October, 2022        September, 2022      -5.22% 
+AAPL       September, 2022      August, 2022         -8.32% 
+AAPL       August, 2022         July, 2022           11.51% 
+AAPL       July, 2022           June, 2022           7.06%  
+AAPL       June, 2022           May, 2022            -5.81% 
+AAPL       May, 2022            April, 2022          -11.02%
+AAPL       April, 2022          March, 2022          0.91%  
+AAPL       March, 2022          February, 2022       -2.66% 
+AAPL       February, 2022       January, 2022        -0.02% 
+AAPL       January, 2022        December, 2021       -2.13% 
+AAPL       December, 2021       November, 2021       12.5%  
+AAPL       November, 2021       October, 2021        5.98%  
+AAPL       October, 2021        September, 2021      -1.85% 
+AAPL       September, 2021      August, 2021         0.09%  
+AAPL       August, 2021         July, 2021           2.09%  
+AAPL       July, 2021           June, 2021           11.68% 
+AAPL       June, 2021           May, 2021            2.51%  
+AAPL       May, 2021            April, 2021          -3.82% 
+AAPL       April, 2021          March, 2021          8.16%  
+AAPL       March, 2021          February, 2021       -7.34% 
+AAPL       February, 2021       January, 2021        -1.13% 
+AAPL       January, 2021        December, 2020       4.52%  
+AAPL       December, 2020       November, 2020       8.95%  
+AAPL       November, 2020       October, 2020        0.36%  
+AAPL       October, 2020        September, 2020      1.12%  
+AAPL       September, 2020      August, 2020         -74.46%
+AAPL       August, 2020         July, 2020           17.92% 
+AAPL       July, 2020           June, 2020           10.54% 
+AAPL       June, 2020           May, 2020            11.56% 
+AAPL       May, 2020            April, 2020          13.8%  
+AAPL       April, 2020          March, 2020          3.79%  
+AAPL       March, 2020          February, 2020       -15.69%
+AAPL       February, 2020       January, 2020        -0.21% 
+AAPL       January, 2020        December, 2019       12.8%  
+AAPL       December, 2019       November, 2019       5.34%  
+AAPL       November, 2019       October, 2019        11.57% 
+AAPL       October, 2019        September, 2019      7.94%  
+AAPL       September, 2019      August, 2019         6.36%  
+AAPL       August, 2019         July, 2019           -0.13% 
+AAPL       July, 2019           June, 2019           6.35%  
+AAPL       June, 2019           May, 2019            0.89%  
+AAPL       May, 2019            April, 2019          -4.61% 
+AAPL       April, 2019          March, 2019          9.4%   
+AAPL       March, 2019          February, 2019       6.73%  
+AAPL       February, 2019       January, 2019        11.39% 
+AAPL       January, 2019        December, 2018       -6.15% 
+AAPL       December, 2018       November, 2018       -14.1% 
+AAPL       November, 2018       October, 2018        -13.41%
+AAPL       October, 2018        September, 2018      -0.55% 
+AAPL       September, 2018      August, 2018         4.09%  
+AAPL       August, 2018         July, 2018           12.11% 
+AAPL       July, 2018           June, 2018           0.9%   
+AAPL       June, 2018           May, 2018            1.66%  
+AAPL       May, 2018            April, 2018          9.25%  
+AAPL       April, 2018          March, 2018          -2.68% 
+AAPL       March, 2018          February, 2018       4.09%  
+AAPL       February, 2018       January, 2018        -3.66% 
+AAPL       January, 2018        December, 2017       1.23%  
+AAPL       December, 2017       November, 2017       -0.3%  
+AAPL       November, 2017       October, 2017        9.24%  
+AAPL       October, 2017        September, 2017      0.13%  
+AAPL       September, 2017      August, 2017         -0.89% 
+AAPL       August, 2017         July, 2017           7.23%  
+AAPL       July, 2017           June, 2017           0.32%  
+AAPL       June, 2017           May, 2017            -2.89% 
+AAPL       May, 2017            April, 2017          6.54%  
+AAPL       April, 2017          March, 2017          1.61%  
+AAPL       March, 2017          February, 2017       5.17%  
+AAPL       February, 2017       January, 2017        11.83% 
+AAPL       January, 2017        December, 2016       4.57%  
+AAPL       December, 2016       November, 2016       3.8%   
+AAPL       November, 2016       October, 2016        -4.81% 
+AAPL       October, 2016        September, 2016      4.37%  
+AAPL       September, 2016      August, 2016         2.96%  
+AAPL       August, 2016         July, 2016           9.24%  
+AAPL       July, 2016           June, 2016           2.01%  
+AAPL       June, 2016           May, 2016            1.74%  
+AAPL       May, 2016            April, 2016          -11.03%
+AAPL       April, 2016          March, 2016          2.37%  
+AAPL       March, 2016          February, 2016       8.9%   
+AAPL       February, 2016       January, 2016        -2.72% 
+AAPL       January, 2016        December, 2015       -11.9% 
+AAPL       December, 2015       November, 2015       -5.44% 
+AAPL       November, 2015       October, 2015        4.23%  
+AAPL       October, 2015        September, 2015      0.5%   
+AAPL       September, 2015      August, 2015         -0.52% 
+AAPL       August, 2015         July, 2015           -9.53% 
+AAPL       July, 2015           June, 2015           -1.93% 
+AAPL       June, 2015           May, 2015            -0.74% 
+AAPL       May, 2015            April, 2015          1.15%  
+AAPL       April, 2015          March, 2015          1.05%  
+AAPL       March, 2015          February, 2015       0.43%  
+AAPL       February, 2015       January, 2015        13.37% 
+AAPL       January, 2015        December, 2014       -1.57% 
+AAPL       December, 2014       November, 2014       -0.77% 
+AAPL       November, 2014       October, 2014        11.39% 
+AAPL       October, 2014        September, 2014      1.14%  
+AAPL       September, 2014      August, 2014         2.14%  
+AAPL       August, 2014         July, 2014           2.94%  
+AAPL       July, 2014           June, 2014           -57.05%
+AAPL       June, 2014           May, 2014            -63.09%
+AAPL       May, 2014            April, 2014          11.48% 
+AAPL       April, 2014          March, 2014          1.47%  
+AAPL       March, 2014          February, 2014       1.26%  
+AAPL       February, 2014       January, 2014        -2.02% 
+AAPL       January, 2014        December, 2013       -3.97% 
+AAPL       December, 2013       November, 2013       6.68%  
+AAPL       November, 2013       October, 2013        3.94%  
+AAPL       October, 2013        September, 2013      5.11%  
+AAPL       September, 2013      August, 2013         -0.96% 
+AAPL       August, 2013         July, 2013           12.97% 
+AAPL       July, 2013           June, 2013           0.85%  
+AAPL       June, 2013           May, 2013            -4.68% 
+AAPL       May, 2013            April, 2013          6.36%  
+AAPL       April, 2013          March, 2013          -5.0%  
+AAPL       March, 2013          February, 2013       -3.28% 
+AAPL       February, 2013       January, 2013        -8.24% 
+
+PERCENTAGE INCREASE FOR btcusd EACH MONTH FOR 10 YEARS:
+____________________________________
+Equation: (Second month price - first month price)/first month price)*100 
+Example:() ($20 - $10)/($10)*100) = 100% 
+Ticker     Start Date           End Date             Percentage Increase
+btcusd     December, 2022       November, 2022       -2.99% 
+btcusd     November, 2022       October, 2022        -10.49%
+btcusd     October, 2022        September, 2022      -0.74% 
+btcusd     September, 2022      August, 2022         -11.45%
+btcusd     August, 2022         July, 2022           3.85%  
+btcusd     July, 2022           June, 2022           -11.63%
+btcusd     June, 2022           May, 2022            -23.14%
+btcusd     May, 2022            April, 2022          -23.46%
+btcusd     April, 2022          March, 2022          -1.28% 
+btcusd     March, 2022          February, 2022       2.96%  
+btcusd     February, 2022       January, 2022        -0.85% 
+btcusd     January, 2022        December, 2021       -16.65%
+btcusd     December, 2021       November, 2021       -18.75%
+btcusd     November, 2021       October, 2021        4.79%  
+btcusd     October, 2021        September, 2021      26.06% 
+btcusd     September, 2021      August, 2021         0.55%  
+btcusd     August, 2021         July, 2021           32.64% 
+btcusd     July, 2021           June, 2021           -3.9%  
+btcusd     June, 2021           May, 2021            -22.96%
+btcusd     May, 2021            April, 2021          -18.49%
+btcusd     April, 2021          March, 2021          4.06%  
+btcusd     March, 2021          February, 2021       18.58% 
+btcusd     February, 2021       January, 2021        33.18% 
+btcusd     January, 2021        December, 2020       58.0%  
+btcusd     December, 2020       November, 2020       31.92% 
+btcusd     November, 2020       October, 2020        40.17% 
+btcusd     October, 2020        September, 2020      11.68% 
+btcusd     September, 2020      August, 2020         -8.58% 
+btcusd     August, 2020         July, 2020           21.37% 
+btcusd     July, 2020           June, 2020           1.21%  
+btcusd     June, 2020           May, 2020            2.4%   
+btcusd     May, 2020            April, 2020          28.26% 
+btcusd     April, 2020          March, 2020          5.06%  
+btcusd     March, 2020          February, 2020       -28.73%
+btcusd     February, 2020       January, 2020        15.05% 
+btcusd     January, 2020        December, 2019       15.55% 
+btcusd     December, 2019       November, 2019       -13.05%
+btcusd     November, 2019       October, 2019        -0.43% 
+btcusd     October, 2019        September, 2019      -14.4% 
+btcusd     September, 2019      August, 2019         -8.04% 
+btcusd     August, 2019         July, 2019           -0.11% 
+btcusd     July, 2019           June, 2019           13.33% 
+btcusd     June, 2019           May, 2019            28.6%  
+btcusd     May, 2019            April, 2019          41.52% 
+btcusd     April, 2019          March, 2019          30.72% 
+btcusd     March, 2019          February, 2019       6.82%  
+btcusd     February, 2019       January, 2019        0.86%  
+btcusd     January, 2019        December, 2018       -0.11% 
+btcusd     December, 2018       November, 2018       -32.35%
+btcusd     November, 2018       October, 2018        -15.54%
+btcusd     October, 2018        September, 2018      -2.66% 
+btcusd     September, 2018      August, 2018         -1.53% 
+btcusd     August, 2018         July, 2018           -5.35% 
+btcusd     July, 2018           June, 2018           4.0%   
+btcusd     June, 2018           May, 2018            -19.76%
+btcusd     May, 2018            April, 2018          6.75%  
+btcusd     April, 2018          March, 2018          -12.61%
+btcusd     March, 2018          February, 2018       -3.13% 
+btcusd     February, 2018       January, 2018        -28.06%
+btcusd     January, 2018        December, 2017       -12.22%
+btcusd     December, 2017       November, 2017       94.37% 
+btcusd     November, 2017       October, 2017        44.95% 
+btcusd     October, 2017        September, 2017      28.7%  
+btcusd     September, 2017      August, 2017         7.77%  
+btcusd     August, 2017         July, 2017           52.43% 
+btcusd     July, 2017           June, 2017           -4.52% 
+btcusd     June, 2017           May, 2017            41.67% 
+btcusd     May, 2017            April, 2017          53.42% 
+btcusd     April, 2017          March, 2017          6.36%  
+btcusd     March, 2017          February, 2017       7.02%  
+btcusd     February, 2017       January, 2017        16.01% 
+btcusd     January, 2017        December, 2016       11.55% 
+btcusd     December, 2016       November, 2016       13.06% 
+btcusd     November, 2016       October, 2016        13.29% 
+btcusd     October, 2016        September, 2016      5.76%  
+btcusd     September, 2016      August, 2016         4.12%  
+btcusd     August, 2016         July, 2016           -12.55%
+btcusd     July, 2016           June, 2016           3.82%  
+btcusd     June, 2016           May, 2016            39.21% 
+btcusd     May, 2016            April, 2016          5.8%   
+btcusd     April, 2016          March, 2016          4.14%  
+btcusd     March, 2016          February, 2016       3.75%  
+btcusd     February, 2016       January, 2016        -2.76% 
+btcusd     January, 2016        December, 2015       -2.48% 
+btcusd     December, 2015       November, 2015       22.03% 
+btcusd     November, 2015       October, 2015        31.69% 
+btcusd     October, 2015        September, 2015      12.73% 
+btcusd     September, 2015      August, 2015         -7.77% 
+btcusd     August, 2015         July, 2015           -9.33% 
+btcusd     July, 2015           June, 2015           18.03% 
+btcusd     June, 2015           May, 2015            -0.05% 
+btcusd     May, 2015            April, 2015          0.46%  
+btcusd     April, 2015          March, 2015          -12.48%
+btcusd     March, 2015          February, 2015       15.21% 
+btcusd     February, 2015       January, 2015        -6.27% 
+btcusd     January, 2015        December, 2014       -27.55%
+btcusd     December, 2014       November, 2014       -5.83% 
+btcusd     November, 2014       October, 2014        -0.21% 
+btcusd     October, 2014        September, 2014      -18.03%
+btcusd     September, 2014      August, 2014         -17.41%
+btcusd     August, 2014         July, 2014           -12.85%
+btcusd     July, 2014           June, 2014           1.32%  
+btcusd     June, 2014           May, 2014            26.76% 
+btcusd     May, 2014            April, 2014          4.24%  
+btcusd     April, 2014          March, 2014          -22.49%
+btcusd     March, 2014          February, 2014       -10.63%
+btcusd     February, 2014       January, 2014        -18.18%
+btcusd     January, 2014        December, 2013       1.78%  
+btcusd     December, 2013       November, 2013       55.65% 
+btcusd     November, 2013       October, 2013        239.98%
+btcusd     October, 2013        September, 2013      21.53% 
+btcusd     September, 2013      August, 2013         21.43% 
+btcusd     August, 2013         July, 2013           20.16% 
+btcusd     July, 2013           June, 2013           -19.5% 
+btcusd     June, 2013           May, 2013            -9.94% 
+btcusd     May, 2013            April, 2013          -6.57% 
+btcusd     April, 2013          March, 2013          126.76%
+btcusd     March, 2013          February, 2013       117.8% 
+btcusd     February, 2013       January, 2013        68.05% 
+
+PERCENTAGE CHANGE IN INFLATION EACH MONTH FOR 10 YEARS:
+____________________________________
+Equation: (Second month CPI - first month CPI)/first month CPI)*100 
+Example:() (20 - 10)/(10)*100) = 100% | The inflation rate percentage is 100% 
+Start Date           End Date             Inflation Increase Percent:
+October, 2022        September, 2022      0.27%  
+September, 2022      August, 2022         0.58%  
+August, 2022         July, 2022           0.57%  
+July, 2022           June, 2022           0.31%  
+June, 2022           May, 2022            0.71%  
+May, 2022            April, 2022          0.63%  
+April, 2022          March, 2022          0.57%  
+March, 2022          February, 2022       0.32%  
+February, 2022       January, 2022        0.51%  
+January, 2022        December, 2021       0.58%  
+December, 2021       November, 2021       0.56%  
+November, 2021       October, 2021        0.52%  
+October, 2021        September, 2021      0.6%   
+September, 2021      August, 2021         0.25%  
+August, 2021         July, 2021           0.18%  
+July, 2021           June, 2021           0.31%  
+June, 2021           May, 2021            0.8%   
+May, 2021            April, 2021          0.75%  
+April, 2021          March, 2021          0.86%  
+March, 2021          February, 2021       0.3%   
+February, 2021       January, 2021        0.15%  
+January, 2021        December, 2020       0.05%  
+December, 2020       November, 2020       0.06%  
+November, 2020       October, 2020        0.18%  
+October, 2020        September, 2020      0.07%  
+September, 2020      August, 2020         0.18%  
+August, 2020         July, 2020           0.41%  
+July, 2020           June, 2020           0.55%  
+June, 2020           May, 2020            0.18%  
+May, 2020            April, 2020          -0.06% 
+April, 2020          March, 2020          -0.43% 
+March, 2020          February, 2020       -0.06% 
+February, 2020       January, 2020        0.25%  
+January, 2020        December, 2019       0.25%  
+December, 2019       November, 2019       0.11%  
+November, 2019       October, 2019        0.17%  
+October, 2019        September, 2019      0.16%  
+September, 2019      August, 2019         0.17%  
+August, 2019         July, 2019           0.24%  
+July, 2019           June, 2019           0.21%  
+June, 2019           May, 2019            0.24%  
+May, 2019            April, 2019          0.14%  
+April, 2019          March, 2019          0.22%  
+March, 2019          February, 2019       0.19%  
+February, 2019       January, 2019        0.13%  
+January, 2019        December, 2018       0.23%  
+December, 2018       November, 2018       0.18%  
+November, 2018       October, 2018        0.18%  
+October, 2018        September, 2018      0.19%  
+September, 2018      August, 2018         0.18%  
+August, 2018         July, 2018           0.07%  
+July, 2018           June, 2018           0.15%  
+June, 2018           May, 2018            0.12%  
+May, 2018            April, 2018          0.21%  
+April, 2018          March, 2018          0.19%  
+March, 2018          February, 2018       0.22%  
+February, 2018       January, 2018        0.19%  
+January, 2018        December, 2017       0.29%  
+December, 2017       November, 2017       0.21%  
+November, 2017       October, 2017        0.11%  
+October, 2017        September, 2017      0.28%  
+September, 2017      August, 2017         0.11%  
+August, 2017         July, 2017           0.22%  
+July, 2017           June, 2017           0.09%  
+June, 2017           May, 2017            0.13%  
+May, 2017            April, 2017          0.08%  
+April, 2017          March, 2017          0.11%  
+March, 2017          February, 2017       -0.02% 
+February, 2017       January, 2017        0.21%  
+January, 2017        December, 2016       0.22%  
+December, 2016       November, 2016       0.18%  
+November, 2016       October, 2016        0.14%  
+October, 2016        September, 2016      0.12%  
+September, 2016      August, 2016         0.17%  
+August, 2016         July, 2016           0.24%  
+July, 2016           June, 2016           0.12%  
+June, 2016           May, 2016            0.16%  
+May, 2016            April, 2016          0.24%  
+April, 2016          March, 2016          0.26%  
+March, 2016          February, 2016       0.16%  
+February, 2016       January, 2016        0.23%  
+January, 2016        December, 2015       0.17%  
+December, 2015       November, 2015       0.13%  
+November, 2015       October, 2015        0.19%  
+October, 2015        September, 2015      0.19%  
+September, 2015      August, 2015         0.21%  
+August, 2015         July, 2015           0.1%   
+July, 2015           June, 2015           0.21%  
+June, 2015           May, 2015            0.16%  
+May, 2015            April, 2015          0.14%  
+April, 2015          March, 2015          0.25%  
+March, 2015          February, 2015       0.24%  
+February, 2015       January, 2015        0.15%  
+January, 2015        December, 2014       0.09%  
+December, 2014       November, 2014       0.05%  
+November, 2014       October, 2014        0.11%  
+October, 2014        September, 2014      0.17%  
+September, 2014      August, 2014         0.16%  
+August, 2014         July, 2014           0.09%  
+July, 2014           June, 2014           0.15%  
+June, 2014           May, 2014            0.13%  
+May, 2014            April, 2014          0.19%  
+April, 2014          March, 2014          0.19%  
+March, 2014          February, 2014       0.19%  
+February, 2014       January, 2014        0.09%  
+January, 2014        December, 2013       0.09%  
+December, 2013       November, 2013       0.17%  
+November, 2013       October, 2013        0.19%  
+October, 2013        September, 2013      0.09%  
+September, 2013      August, 2013         0.16%  
+August, 2013         July, 2013           0.19%  
+July, 2013           June, 2013           0.23%  
+June, 2013           May, 2013            0.15%  
+May, 2013            April, 2013          0.07%  
+April, 2013          March, 2013          0.02%  
+March, 2013          February, 2013       0.1%   
+February, 2013       January, 2013        0.15%  
+
+THE AVERAGE COSTS OF AAPL AND btcusd OVER THE PAST 10 YEARS
+____________________________________
+FOUND USING AVG FUNCTION PROVIDED IN SQL
+TICKER  AVERAGE COST
+AAPL    ....$209.94
+btcusd  ..$10717.13
+
+PERCENTAGE INCREASE FOR AAPL EACH MONTH FOR 10 YEARS:
+____________________________________
+Equation: (Second month price - first month price)/first month price)*100 
+Example:() ($20 - $10)/($10)*100) = 100% 
+Ticker     Start Date           End Date             Percentage Increase
+AAPL       December, 2022       November, 2022       -0.93% 
+AAPL       November, 2022       October, 2022        0.57%  
+AAPL       October, 2022        September, 2022      -5.22% 
+AAPL       September, 2022      August, 2022         -8.32% 
+AAPL       August, 2022         July, 2022           11.51% 
+AAPL       July, 2022           June, 2022           7.06%  
+AAPL       June, 2022           May, 2022            -5.81% 
+AAPL       May, 2022            April, 2022          -11.02%
+AAPL       April, 2022          March, 2022          0.91%  
+AAPL       March, 2022          February, 2022       -2.66% 
+AAPL       February, 2022       January, 2022        -0.02% 
+AAPL       January, 2022        December, 2021       -2.13% 
+AAPL       December, 2021       November, 2021       12.5%  
+AAPL       November, 2021       October, 2021        5.98%  
+AAPL       October, 2021        September, 2021      -1.85% 
+AAPL       September, 2021      August, 2021         0.09%  
+AAPL       August, 2021         July, 2021           2.09%  
+AAPL       July, 2021           June, 2021           11.68% 
+AAPL       June, 2021           May, 2021            2.51%  
+AAPL       May, 2021            April, 2021          -3.82% 
+AAPL       April, 2021          March, 2021          8.16%  
+AAPL       March, 2021          February, 2021       -7.34% 
+AAPL       February, 2021       January, 2021        -1.13% 
+AAPL       January, 2021        December, 2020       4.52%  
+AAPL       December, 2020       November, 2020       8.95%  
+AAPL       November, 2020       October, 2020        0.36%  
+AAPL       October, 2020        September, 2020      1.12%  
+AAPL       September, 2020      August, 2020         -74.46%
+AAPL       August, 2020         July, 2020           17.92% 
+AAPL       July, 2020           June, 2020           10.54% 
+AAPL       June, 2020           May, 2020            11.56% 
+AAPL       May, 2020            April, 2020          13.8%  
+AAPL       April, 2020          March, 2020          3.79%  
+AAPL       March, 2020          February, 2020       -15.69%
+AAPL       February, 2020       January, 2020        -0.21% 
+AAPL       January, 2020        December, 2019       12.8%  
+AAPL       December, 2019       November, 2019       5.34%  
+AAPL       November, 2019       October, 2019        11.57% 
+AAPL       October, 2019        September, 2019      7.94%  
+AAPL       September, 2019      August, 2019         6.36%  
+AAPL       August, 2019         July, 2019           -0.13% 
+AAPL       July, 2019           June, 2019           6.35%  
+AAPL       June, 2019           May, 2019            0.89%  
+AAPL       May, 2019            April, 2019          -4.61% 
+AAPL       April, 2019          March, 2019          9.4%   
+AAPL       March, 2019          February, 2019       6.73%  
+AAPL       February, 2019       January, 2019        11.39% 
+AAPL       January, 2019        December, 2018       -6.15% 
+AAPL       December, 2018       November, 2018       -14.1% 
+AAPL       November, 2018       October, 2018        -13.41%
+AAPL       October, 2018        September, 2018      -0.55% 
+AAPL       September, 2018      August, 2018         4.09%  
+AAPL       August, 2018         July, 2018           12.11% 
+AAPL       July, 2018           June, 2018           0.9%   
+AAPL       June, 2018           May, 2018            1.66%  
+AAPL       May, 2018            April, 2018          9.25%  
+AAPL       April, 2018          March, 2018          -2.68% 
+AAPL       March, 2018          February, 2018       4.09%  
+AAPL       February, 2018       January, 2018        -3.66% 
+AAPL       January, 2018        December, 2017       1.23%  
+AAPL       December, 2017       November, 2017       -0.3%  
+AAPL       November, 2017       October, 2017        9.24%  
+AAPL       October, 2017        September, 2017      0.13%  
+AAPL       September, 2017      August, 2017         -0.89% 
+AAPL       August, 2017         July, 2017           7.23%  
+AAPL       July, 2017           June, 2017           0.32%  
+AAPL       June, 2017           May, 2017            -2.89% 
+AAPL       May, 2017            April, 2017          6.54%  
+AAPL       April, 2017          March, 2017          1.61%  
+AAPL       March, 2017          February, 2017       5.17%  
+AAPL       February, 2017       January, 2017        11.83% 
+AAPL       January, 2017        December, 2016       4.57%  
+AAPL       December, 2016       November, 2016       3.8%   
+AAPL       November, 2016       October, 2016        -4.81% 
+AAPL       October, 2016        September, 2016      4.37%  
+AAPL       September, 2016      August, 2016         2.96%  
+AAPL       August, 2016         July, 2016           9.24%  
+AAPL       July, 2016           June, 2016           2.01%  
+AAPL       June, 2016           May, 2016            1.74%  
+AAPL       May, 2016            April, 2016          -11.03%
+AAPL       April, 2016          March, 2016          2.37%  
+AAPL       March, 2016          February, 2016       8.9%   
+AAPL       February, 2016       January, 2016        -2.72% 
+AAPL       January, 2016        December, 2015       -11.9% 
+AAPL       December, 2015       November, 2015       -5.44% 
+AAPL       November, 2015       October, 2015        4.23%  
+AAPL       October, 2015        September, 2015      0.5%   
+AAPL       September, 2015      August, 2015         -0.52% 
+AAPL       August, 2015         July, 2015           -9.53% 
+AAPL       July, 2015           June, 2015           -1.93% 
+AAPL       June, 2015           May, 2015            -0.74% 
+AAPL       May, 2015            April, 2015          1.15%  
+AAPL       April, 2015          March, 2015          1.05%  
+AAPL       March, 2015          February, 2015       0.43%  
+AAPL       February, 2015       January, 2015        13.37% 
+AAPL       January, 2015        December, 2014       -1.57% 
+AAPL       December, 2014       November, 2014       -0.77% 
+AAPL       November, 2014       October, 2014        11.39% 
+AAPL       October, 2014        September, 2014      1.14%  
+AAPL       September, 2014      August, 2014         2.14%  
+AAPL       August, 2014         July, 2014           2.94%  
+AAPL       July, 2014           June, 2014           -57.05%
+AAPL       June, 2014           May, 2014            -63.09%
+AAPL       May, 2014            April, 2014          11.48% 
+AAPL       April, 2014          March, 2014          1.47%  
+AAPL       March, 2014          February, 2014       1.26%  
+AAPL       February, 2014       January, 2014        -2.02% 
+AAPL       January, 2014        December, 2013       -3.97% 
+AAPL       December, 2013       November, 2013       6.68%  
+AAPL       November, 2013       October, 2013        3.94%  
+AAPL       October, 2013        September, 2013      5.11%  
+AAPL       September, 2013      August, 2013         -0.96% 
+AAPL       August, 2013         July, 2013           12.97% 
+AAPL       July, 2013           June, 2013           0.85%  
+AAPL       June, 2013           May, 2013            -4.68% 
+AAPL       May, 2013            April, 2013          6.36%  
+AAPL       April, 2013          March, 2013          -5.0%  
+AAPL       March, 2013          February, 2013       -3.28% 
+AAPL       February, 2013       January, 2013        -8.24% 
+
+PERCENTAGE INCREASE FOR btcusd EACH MONTH FOR 10 YEARS:
+____________________________________
+Equation: (Second month price - first month price)/first month price)*100 
+Example:() ($20 - $10)/($10)*100) = 100% 
+Ticker     Start Date           End Date             Percentage Increase
+btcusd     December, 2022       November, 2022       -2.99% 
+btcusd     November, 2022       October, 2022        -10.49%
+btcusd     October, 2022        September, 2022      -0.74% 
+btcusd     September, 2022      August, 2022         -11.45%
+btcusd     August, 2022         July, 2022           3.85%  
+btcusd     July, 2022           June, 2022           -11.63%
+btcusd     June, 2022           May, 2022            -23.14%
+btcusd     May, 2022            April, 2022          -23.46%
+btcusd     April, 2022          March, 2022          -1.28% 
+btcusd     March, 2022          February, 2022       2.96%  
+btcusd     February, 2022       January, 2022        -0.85% 
+btcusd     January, 2022        December, 2021       -16.65%
+btcusd     December, 2021       November, 2021       -18.75%
+btcusd     November, 2021       October, 2021        4.79%  
+btcusd     October, 2021        September, 2021      26.06% 
+btcusd     September, 2021      August, 2021         0.55%  
+btcusd     August, 2021         July, 2021           32.64% 
+btcusd     July, 2021           June, 2021           -3.9%  
+btcusd     June, 2021           May, 2021            -22.96%
+btcusd     May, 2021            April, 2021          -18.49%
+btcusd     April, 2021          March, 2021          4.06%  
+btcusd     March, 2021          February, 2021       18.58% 
+btcusd     February, 2021       January, 2021        33.18% 
+btcusd     January, 2021        December, 2020       58.0%  
+btcusd     December, 2020       November, 2020       31.92% 
+btcusd     November, 2020       October, 2020        40.17% 
+btcusd     October, 2020        September, 2020      11.68% 
+btcusd     September, 2020      August, 2020         -8.58% 
+btcusd     August, 2020         July, 2020           21.37% 
+btcusd     July, 2020           June, 2020           1.21%  
+btcusd     June, 2020           May, 2020            2.4%   
+btcusd     May, 2020            April, 2020          28.26% 
+btcusd     April, 2020          March, 2020          5.06%  
+btcusd     March, 2020          February, 2020       -28.73%
+btcusd     February, 2020       January, 2020        15.05% 
+btcusd     January, 2020        December, 2019       15.55% 
+btcusd     December, 2019       November, 2019       -13.05%
+btcusd     November, 2019       October, 2019        -0.43% 
+btcusd     October, 2019        September, 2019      -14.4% 
+btcusd     September, 2019      August, 2019         -8.04% 
+btcusd     August, 2019         July, 2019           -0.11% 
+btcusd     July, 2019           June, 2019           13.33% 
+btcusd     June, 2019           May, 2019            28.6%  
+btcusd     May, 2019            April, 2019          41.52% 
+btcusd     April, 2019          March, 2019          30.72% 
+btcusd     March, 2019          February, 2019       6.82%  
+btcusd     February, 2019       January, 2019        0.86%  
+btcusd     January, 2019        December, 2018       -0.11% 
+btcusd     December, 2018       November, 2018       -32.35%
+btcusd     November, 2018       October, 2018        -15.54%
+btcusd     October, 2018        September, 2018      -2.66% 
+btcusd     September, 2018      August, 2018         -1.53% 
+btcusd     August, 2018         July, 2018           -5.35% 
+btcusd     July, 2018           June, 2018           4.0%   
+btcusd     June, 2018           May, 2018            -19.76%
+btcusd     May, 2018            April, 2018          6.75%  
+btcusd     April, 2018          March, 2018          -12.61%
+btcusd     March, 2018          February, 2018       -3.13% 
+btcusd     February, 2018       January, 2018        -28.06%
+btcusd     January, 2018        December, 2017       -12.22%
+btcusd     December, 2017       November, 2017       94.37% 
+btcusd     November, 2017       October, 2017        44.95% 
+btcusd     October, 2017        September, 2017      28.7%  
+btcusd     September, 2017      August, 2017         7.77%  
+btcusd     August, 2017         July, 2017           52.43% 
+btcusd     July, 2017           June, 2017           -4.52% 
+btcusd     June, 2017           May, 2017            41.67% 
+btcusd     May, 2017            April, 2017          53.42% 
+btcusd     April, 2017          March, 2017          6.36%  
+btcusd     March, 2017          February, 2017       7.02%  
+btcusd     February, 2017       January, 2017        16.01% 
+btcusd     January, 2017        December, 2016       11.55% 
+btcusd     December, 2016       November, 2016       13.06% 
+btcusd     November, 2016       October, 2016        13.29% 
+btcusd     October, 2016        September, 2016      5.76%  
+btcusd     September, 2016      August, 2016         4.12%  
+btcusd     August, 2016         July, 2016           -12.55%
+btcusd     July, 2016           June, 2016           3.82%  
+btcusd     June, 2016           May, 2016            39.21% 
+btcusd     May, 2016            April, 2016          5.8%   
+btcusd     April, 2016          March, 2016          4.14%  
+btcusd     March, 2016          February, 2016       3.75%  
+btcusd     February, 2016       January, 2016        -2.76% 
+btcusd     January, 2016        December, 2015       -2.48% 
+btcusd     December, 2015       November, 2015       22.03% 
+btcusd     November, 2015       October, 2015        31.69% 
+btcusd     October, 2015        September, 2015      12.73% 
+btcusd     September, 2015      August, 2015         -7.77% 
+btcusd     August, 2015         July, 2015           -9.33% 
+btcusd     July, 2015           June, 2015           18.03% 
+btcusd     June, 2015           May, 2015            -0.05% 
+btcusd     May, 2015            April, 2015          0.46%  
+btcusd     April, 2015          March, 2015          -12.48%
+btcusd     March, 2015          February, 2015       15.21% 
+btcusd     February, 2015       January, 2015        -6.27% 
+btcusd     January, 2015        December, 2014       -27.55%
+btcusd     December, 2014       November, 2014       -5.83% 
+btcusd     November, 2014       October, 2014        -0.21% 
+btcusd     October, 2014        September, 2014      -18.03%
+btcusd     September, 2014      August, 2014         -17.41%
+btcusd     August, 2014         July, 2014           -12.85%
+btcusd     July, 2014           June, 2014           1.32%  
+btcusd     June, 2014           May, 2014            26.76% 
+btcusd     May, 2014            April, 2014          4.24%  
+btcusd     April, 2014          March, 2014          -22.49%
+btcusd     March, 2014          February, 2014       -10.63%
+btcusd     February, 2014       January, 2014        -18.18%
+btcusd     January, 2014        December, 2013       1.78%  
+btcusd     December, 2013       November, 2013       55.65% 
+btcusd     November, 2013       October, 2013        239.98%
+btcusd     October, 2013        September, 2013      21.53% 
+btcusd     September, 2013      August, 2013         21.43% 
+btcusd     August, 2013         July, 2013           20.16% 
+btcusd     July, 2013           June, 2013           -19.5% 
+btcusd     June, 2013           May, 2013            -9.94% 
+btcusd     May, 2013            April, 2013          -6.57% 
+btcusd     April, 2013          March, 2013          126.76%
+btcusd     March, 2013          February, 2013       117.8% 
+btcusd     February, 2013       January, 2013        68.05% 
+
+PERCENTAGE CHANGE IN INFLATION EACH MONTH FOR 10 YEARS:
+____________________________________
+Equation: (Second month CPI - first month CPI)/first month CPI)*100 
+Example:() (20 - 10)/(10)*100) = 100% | The inflation rate percentage is 100% 
+Start Date           End Date             Inflation Increase Percent:
+October, 2022        September, 2022      0.27%  
+September, 2022      August, 2022         0.58%  
+August, 2022         July, 2022           0.57%  
+July, 2022           June, 2022           0.31%  
+June, 2022           May, 2022            0.71%  
+May, 2022            April, 2022          0.63%  
+April, 2022          March, 2022          0.57%  
+March, 2022          February, 2022       0.32%  
+February, 2022       January, 2022        0.51%  
+January, 2022        December, 2021       0.58%  
+December, 2021       November, 2021       0.56%  
+November, 2021       October, 2021        0.52%  
+October, 2021        September, 2021      0.6%   
+September, 2021      August, 2021         0.25%  
+August, 2021         July, 2021           0.18%  
+July, 2021           June, 2021           0.31%  
+June, 2021           May, 2021            0.8%   
+May, 2021            April, 2021          0.75%  
+April, 2021          March, 2021          0.86%  
+March, 2021          February, 2021       0.3%   
+February, 2021       January, 2021        0.15%  
+January, 2021        December, 2020       0.05%  
+December, 2020       November, 2020       0.06%  
+November, 2020       October, 2020        0.18%  
+October, 2020        September, 2020      0.07%  
+September, 2020      August, 2020         0.18%  
+August, 2020         July, 2020           0.41%  
+July, 2020           June, 2020           0.55%  
+June, 2020           May, 2020            0.18%  
+May, 2020            April, 2020          -0.06% 
+April, 2020          March, 2020          -0.43% 
+March, 2020          February, 2020       -0.06% 
+February, 2020       January, 2020        0.25%  
+January, 2020        December, 2019       0.25%  
+December, 2019       November, 2019       0.11%  
+November, 2019       October, 2019        0.17%  
+October, 2019        September, 2019      0.16%  
+September, 2019      August, 2019         0.17%  
+August, 2019         July, 2019           0.24%  
+July, 2019           June, 2019           0.21%  
+June, 2019           May, 2019            0.24%  
+May, 2019            April, 2019          0.14%  
+April, 2019          March, 2019          0.22%  
+March, 2019          February, 2019       0.19%  
+February, 2019       January, 2019        0.13%  
+January, 2019        December, 2018       0.23%  
+December, 2018       November, 2018       0.18%  
+November, 2018       October, 2018        0.18%  
+October, 2018        September, 2018      0.19%  
+September, 2018      August, 2018         0.18%  
+August, 2018         July, 2018           0.07%  
+July, 2018           June, 2018           0.15%  
+June, 2018           May, 2018            0.12%  
+May, 2018            April, 2018          0.21%  
+April, 2018          March, 2018          0.19%  
+March, 2018          February, 2018       0.22%  
+February, 2018       January, 2018        0.19%  
+January, 2018        December, 2017       0.29%  
+December, 2017       November, 2017       0.21%  
+November, 2017       October, 2017        0.11%  
+October, 2017        September, 2017      0.28%  
+September, 2017      August, 2017         0.11%  
+August, 2017         July, 2017           0.22%  
+July, 2017           June, 2017           0.09%  
+June, 2017           May, 2017            0.13%  
+May, 2017            April, 2017          0.08%  
+April, 2017          March, 2017          0.11%  
+March, 2017          February, 2017       -0.02% 
+February, 2017       January, 2017        0.21%  
+January, 2017        December, 2016       0.22%  
+December, 2016       November, 2016       0.18%  
+November, 2016       October, 2016        0.14%  
+October, 2016        September, 2016      0.12%  
+September, 2016      August, 2016         0.17%  
+August, 2016         July, 2016           0.24%  
+July, 2016           June, 2016           0.12%  
+June, 2016           May, 2016            0.16%  
+May, 2016            April, 2016          0.24%  
+April, 2016          March, 2016          0.26%  
+March, 2016          February, 2016       0.16%  
+February, 2016       January, 2016        0.23%  
+January, 2016        December, 2015       0.17%  
+December, 2015       November, 2015       0.13%  
+November, 2015       October, 2015        0.19%  
+October, 2015        September, 2015      0.19%  
+September, 2015      August, 2015         0.21%  
+August, 2015         July, 2015           0.1%   
+July, 2015           June, 2015           0.21%  
+June, 2015           May, 2015            0.16%  
+May, 2015            April, 2015          0.14%  
+April, 2015          March, 2015          0.25%  
+March, 2015          February, 2015       0.24%  
+February, 2015       January, 2015        0.15%  
+January, 2015        December, 2014       0.09%  
+December, 2014       November, 2014       0.05%  
+November, 2014       October, 2014        0.11%  
+October, 2014        September, 2014      0.17%  
+September, 2014      August, 2014         0.16%  
+August, 2014         July, 2014           0.09%  
+July, 2014           June, 2014           0.15%  
+June, 2014           May, 2014            0.13%  
+May, 2014            April, 2014          0.19%  
+April, 2014          March, 2014          0.19%  
+March, 2014          February, 2014       0.19%  
+February, 2014       January, 2014        0.09%  
+January, 2014        December, 2013       0.09%  
+December, 2013       November, 2013       0.17%  
+November, 2013       October, 2013        0.19%  
+October, 2013        September, 2013      0.09%  
+September, 2013      August, 2013         0.16%  
+August, 2013         July, 2013           0.19%  
+July, 2013           June, 2013           0.23%  
+June, 2013           May, 2013            0.15%  
+May, 2013            April, 2013          0.07%  
+April, 2013          March, 2013          0.02%  
+March, 2013          February, 2013       0.1%   
+February, 2013       January, 2013        0.15%  
+
+THE AVERAGE COSTS OF AAPL AND btcusd OVER THE PAST 10 YEARS
+____________________________________
+FOUND USING AVG FUNCTION PROVIDED IN SQL
+TICKER  AVERAGE COST
+AAPL    ....$209.94
+btcusd  ..$10717.13

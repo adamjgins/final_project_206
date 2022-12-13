@@ -4,12 +4,14 @@ from bs4 import BeautifulSoup
 import json
 import re
 import csv
+import numpy as np
 import matplotlib.pyplot as plt
 import os
 import sqlite3
 import unittest
 import unittest
 from datetime import datetime
+from sklearn.linear_model import LinearRegression
 
 def organize_by_year_month(data):
   # Create a dictionary to hold the organized data
@@ -582,6 +584,89 @@ def calculate_inflation_rate(db_filename):
 
     pass
 
+def inflation_visualization(db_filename,table_name,percent_change_list):
+
+    date_list = []
+    cpi_list = []
+    date_num_list = []
+    percent_num_list = []
+
+
+    con = sqlite3.connect(db_filename)
+    cur = con.cursor()
+
+    data = cur.execute('SELECT dates.date,'+table_name+'.value FROM '+table_name+' INNER JOIN dates ON '+table_name+'.id = dates.id')
+
+    data = data.fetchall()
+
+
+
+    for row_number in range(0,len(data)):
+
+        date_list.append(data[row_number][0]) 
+
+        cpi_list.append(data[row_number][1]) 
+
+
+    #print(date_list)
+
+    i = 0
+
+    for item in date_list:
+        date_num_list.append(i)
+        i +=1
+
+    date_list.reverse()
+    cpi_list.reverse()
+
+
+    plot1 = plt.subplot2grid((25, 10), (0, 0), colspan=10,rowspan = 10)
+    plot2 = plt.subplot2grid((25, 10), (15, 0), colspan=10,rowspan = 10)
+
+
+    x = np.array(date_num_list)
+    y = np.array(cpi_list)
+
+    z = 0
+
+    for item in range(len(percent_change_list)):
+        percent_num_list.append(z)
+        z += 1
+
+    x2 = np.array(percent_num_list)
+
+    y2 = np.array(percent_change_list)
+
+    a, b = np.polyfit(x, y, 1)
+
+    a2,b2 = np.polyfit(x2,y2,1)
+
+
+    plot1.scatter(x,y,color = 'green')
+    plot1.plot(date_list, a*x+b, color='steelblue', linestyle='--', linewidth=2)
+    plot1.text(100, 50, 'y = ' + '{:.2f}'.format(b) + ' + {:.2f}'.format(a) + 'x', size=10)
+    plot1.set_title('CPI Each Month For 10 Years')
+    plot1.set_ylabel('CPI')
+    plot1.set_xlabel('Month and Year')
+    plot1.set_xticklabels(date_list, rotation=45,size = 4)
+
+
+    plot2.scatter(x2,y2,color = 'orange')
+    plot2.plot(x2, a2*x2+b2, color='green', linestyle='--', linewidth=2)
+    plot2.text(1, 8, 'y = ' + '{:.2f}'.format(b2) + ' + {:.2f}'.format(a2) + 'x', size=10)
+
+    plot2.set_title('Change IN CPI Each Month')
+    plot2.set_ylabel('Percent Change')
+    plot2.set_xlabel('Month and Year')
+    plot2.set_xticklabels(percent_num_list, rotation=45,size = 4)
+
+    plt.draw()
+
+
+    plt.show()
+
+
+pass
 
 
 

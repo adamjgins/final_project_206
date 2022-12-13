@@ -1007,7 +1007,7 @@ if __name__ == '__main__':
         max = cur.execute("SELECT id FROM dates WHERE id = (SELECT MAX(id) FROM dates)")
         max = cur.fetchone()
         max = max[0]
-        print(max)
+     
         if (max == 120):
             stock_percent = calculate_percent_change('final_project.db',"stock_info")
             crypto_percent = calculate_percent_change('final_project.db',"crypto_info")
